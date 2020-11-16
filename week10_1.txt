@@ -1,0 +1,58 @@
+drop table dept_second;
+drop table dept_third;
+
+create table dept_second (
+dno number(2) constraint pk_dept_second primary key,
+dname varchar2(14),
+loc varchar(13)
+);
+
+create table Customer1 (
+
+);
+
+
+테이블 명 : emp_second
+필드 : eno, number, 제약조건 기본키
+ename 문자형(10),
+job 문자형(9),
+dno 숫자형 외래키
+외래키 참조 테이블은 department
+
+create table emp_second(
+eno number constriant emp_second_eno_pk primary key,
+ename varchar2(10),
+job varchar2(9),
+dno number constriant emp_second_dno_fk foreign key references department
+);
+
+
+테이블 명 : emp_third
+필드 : eno, number, 제약조건 기본키
+ename 문자형(10),
+salary 문자형(소수2자리 총 7개)
+
+create table emp_third (
+eno number CONSTRAINT emp_third_eno_pk primary key,
+ename VARCHAR(10),
+salary VARCHAR()
+);
+
+
+회원아이디 기본키pk
+등급 silver  -> default
+
+
+부서 릴레이션 :  부서번호 부서명 부서장이름  사원번호
+프로젝트 릴레이션 : 프로젝트번호 프로젝트명 기간
+사원 릴레이션 : 사원번호 사원이름 급여액
+참여 릴레이션 : 수행시간
+관리 릴레이션 : 투입시간
+
+
+-> 일대다 -> 일측이 아닌 다측에 넣어야함, 일측의 기본키를 다측에 외래키로 넣어함
+부서 릴레이션 : 부서번호 부서명 부서장이름
+사원 릴레이션 : 사원번호 사원이름 급여액 부서번호(FK)
+프로젝트 릴레이션 : 프로젝트 번호 프로젝트명 기간
+관리 릴레이션 : 관리번호 부서번호(FK) 프로젝트번호(FK) 투입시간
+참여 릴레이션 : 참여번호 프로젝트번호(FK) 사원번호(FK) 수행시간
