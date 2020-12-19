@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-19T11:33:04.812Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="L4o2FQVWshWbB5OcDiRp" version="14.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-19T14:46:28.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ds4TPju_32_LTuBahynK" version="14.0.5" type="github">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="4483" dy="980" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -109,7 +109,7 @@
             <mxPoint x="1180" y="87.99999999999989" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cognFk9Jnt_qJK0dII5s-33" value="영화명" style="ellipse;whiteSpace=wrap;html=1;" parent="uATa9xvKlWNHUryX7QZl-1" vertex="1">
+        <mxCell id="cognFk9Jnt_qJK0dII5s-33" value="회원 ID" style="ellipse;whiteSpace=wrap;html=1;" parent="uATa9xvKlWNHUryX7QZl-1" vertex="1">
           <mxGeometry x="768" y="620" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cognFk9Jnt_qJK0dII5s-31" value="별점" style="ellipse;whiteSpace=wrap;html=1;" parent="uATa9xvKlWNHUryX7QZl-1" vertex="1">
